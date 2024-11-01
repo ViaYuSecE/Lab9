@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Via Studio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <center><img src="logo.png" style="width: 30%; padding-top: 10px;" /></center>
+    </header>
+
+    <section>
+        <h2>RECENT WORKS</h2>
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('night')"> Night</button>
+            <button class="btn" onclick="filterSelection('aurora')"> Aurora</button>
+            <button class="btn" onclick="filterSelection('dusk')"> Dusk</button>
+        </div>
+    </section>
+
+    <article>
+        <div class="gallery-wrap">
+            <div class="gallery-box night">
+                <a href="img_haugsveenphoto.jpg"><img src="img_haugsveenphoto.jpg"></a>
+            </div>
+
+            <div class="gallery-box aurora">
+                <a href="img_tobiasbjorkli.jpg"><img src="img_tobiasbjorkli.jpg"></a>
+            </div>
+
+            <div class="gallery-box dusk">
+                <a href="img_pixabay2.jpg"><img src="img_pixabay2.jpg"></a>
+            </div>
+
+            <div class="gallery-box night">
+                <a href="img_krisof.jpg"><img src="img_krisof.jpg"></a>
+            </div>
+
+            <div class="gallery-box aurora">
+                <a href="img_visit-greenland.jpg"><img src="img_visit-greenland.jpg"></a>
+            </div>
+
+            <div class="gallery-box night">
+                <a href="img_miriamespacio.jpg"><img src="img_miriamespacio.jpg"></a>
+            </div>
+
+            <div class="gallery-box dusk">
+                <a href="img_no-name.jpg"><img src="img_no-name.jpg"></a>
+            </div>
+
+            <div class="gallery-box night">
+                <a href="img_pixabay.jpg"><img src="img_pixabay.jpg"></a>
+            </div>
+
+            <div class="gallery-box aurora">
+                <a href="img_stefanstefancik.jpg"><img src="img_stefanstefancik.jpg"></a>
+            </div>
+
+            <div class="gallery-box dusk">
+                <a href="img_markiwan.jpg"><img src="img_markiwan.jpg"></a>
+            </div>
+
+            <div class="gallery-box aurora">
+                <a href="img_therato.jpg"><img src="img_therato.jpg"></a>
+            </div>
+
+            <div class="gallery-box dusk">
+                <a href="img_blitzboy.jpg"><img src="img_blitzboy.jpg"></a>
+            </div>
+        </div>
+    </article>
+    <script src="script.js"></script>
+</body>
+
+</html>
